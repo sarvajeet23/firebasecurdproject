@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "180353533379",
+    "project_id": "fir-curdflutterproject",
+    "storage_bucket": "fir-curdflutterproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180353533379:android:e0719017fe8f6e0bffa976",
+        "android_client_info": {
+          "package_name": "com.example.firebasecurdproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180353533379-7aru6mmp446o8fc5ar3ce4m9ptqp41e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBk11cF9CzjUPp6q0yJHnXDkGeeINl2Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180353533379-7aru6mmp446o8fc5ar3ce4m9ptqp41e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
