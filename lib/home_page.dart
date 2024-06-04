@@ -147,15 +147,15 @@ class _HomePageState extends State<HomePage> {
             ElevatedButton(
                 onPressed: () async {
                   if (priceTextController.text != null) {
-                    // await _products.add({
-                    //   'name': nameTextController.text,
-                    //   'price': priceTextController.text
-                    // });
-
-                    await _products.doc("sona").set({
+                    await _products.add({
                       'name': nameTextController.text,
                       'price': priceTextController.text
                     });
+
+                    // await _products.doc("sona").set({
+                    //   'name': nameTextController.text,
+                    //   'price': priceTextController.text
+                    // });
                     nameTextController.text = '';
                     priceTextController.text = '';
                     Navigator.pop(context);
